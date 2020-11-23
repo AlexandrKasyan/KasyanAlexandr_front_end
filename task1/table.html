@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8"> <!-- кодировка -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Space Engineers</title> <!-- Название страницы -->
+	<link rel="shortcut icon" href="img/logo.png" /> <!-- Подключаю логотип к названию страницы -->
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body >
+
+	<header>
+		<img src="img/logo.png" alt="">	
+		<h1>Space Engineers</h1> <!-- Заголовок  -->
+	</header>
+	<menu>
+		<nav>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="table.html">Table</a></li>
+			<li><a href="about.html">About</a></li>
+		</nav>	
+	</menu>
+	<main>
+		<form>
+			<p><iframe name="output" scrolling="no" src ="table_style1.html" height="317" width="1040"></iframe></p> <!-- фрейм с именем output к которому потом буду обращаться чрез  formtarget="output" -->
+			<p><input type="submit" value="1 стиль" formaction="table_style1.html" formtarget="output"><input type="submit" value="2 стиль" formaction="table_style2.html" formtarget="output"><input type="submit" value="3 стиль" formaction="table_style3.html" formtarget="output"></p>	</p>	<!-- кнопки с ссылками на фреймы  -->
+		</form>
+	
+		 
+	</main>
+	<footer>		
+		<p>© Касьян А.С.</p>
+		<p>Версия сайта 1.0</p>
+		<div id="current_date"></div>
+	</footer>
+	<script src="scripts/scripts.js"></script>
+</body>
+</html>
